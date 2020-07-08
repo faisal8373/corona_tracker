@@ -30,7 +30,7 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
     
-    - uses: install axios
+    - uses: Install axios
       with:
         cmd: install axios
     - uses: install react-chartjs-2
