@@ -30,9 +30,7 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
     
-    - uses: Install axios
-      with:
-        cmd: yarn axios
+   
     
     
     - uses: Install react-countup
