@@ -37,7 +37,7 @@ jobs:
       with:
         cmd: install --save react-chartjs-2 chart.js
     
-    - uses: install react-countup
+    - uses: Install react-countup
       with:
         cmd: yarn add react-countup  
             
