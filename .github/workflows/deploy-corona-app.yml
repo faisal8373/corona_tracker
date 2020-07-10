@@ -32,10 +32,8 @@ jobs:
     
     - uses: Install axios
       with:
-        cmd: install axios
-    - uses: install react-chartjs-2
-      with:
-        cmd: install --save react-chartjs-2 chart.js
+        cmd: yarn axios
+    
     
     - uses: Install react-countup
       with:
