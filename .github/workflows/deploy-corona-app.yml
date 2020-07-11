@@ -31,20 +31,18 @@ jobs:
         cmd: install # will run `yarn install` command
     
     - name: Install material UI
-      with:
-        cmd: yarn add @material-ui/core 
+      run: yarn add @material-ui/core 
         
     - name: Install axios
-      with:
-        cmd: yarn add axios 
+      run: yarn add axios 
     
     
     - name: Install react-countup
-      with:
-        cmd: yarn add react-countup  
+      run: yarn add react-countup  
             
     - name: Building react app
       run: yarn build
+      
     - name: Install Surge
       run: npm install -g surge
 
