@@ -30,8 +30,8 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
     
-    - name: Install material UI
-      run: yarn add @material-ui/core 
+#     - name: Install material UI
+#       run: yarn add @material-ui/core 
         
     - name: Install axios
       run: yarn add axios 
