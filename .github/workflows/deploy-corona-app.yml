@@ -30,10 +30,16 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
     
-   
+    - name: Install material UI
+      with:
+        cmd: yarn add @material-ui/core 
+        
+    - name: Install axios
+      with:
+        cmd: yarn add axios 
     
     
-    - uses: Install react-countup
+    - name: Install react-countup
       with:
         cmd: yarn add react-countup  
             
