@@ -33,12 +33,12 @@ jobs:
 #     - name: Install material UI
 #       run: yarn add @material-ui/core 
         
-    - name: Install axios
-      run: yarn add axios 
+#     - name: Install axios
+#       run: yarn add axios 
     
     
-    - name: Install react-countup
-      run: yarn add react-countup  
+#     - name: Install react-countup
+#       run: yarn add react-countup  
             
     - name: Building react app
       run: yarn build
